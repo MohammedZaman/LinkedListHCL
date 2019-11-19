@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *This is the signly linked Linked List used to store numbers.
+ *
  */
 package linked.list.hcl;
 
@@ -68,7 +67,7 @@ public class CustomLinkedList {
 
     /**
      * Display all node data values
-     * @return 
+     * @return the order of the list 
      */
     public String getSequence() {
         Node currentNode = head;
