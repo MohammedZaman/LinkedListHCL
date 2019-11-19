@@ -90,7 +90,7 @@ public class CustomLinkedListTest {
     }
 
     /**
-     * Testing if sorting works when placed in the middle of Linked List
+     * Testing to see if sorting works when element placed in the middle of Linked List
      */
     @Test
     public void testSequqnce2() {
@@ -106,7 +106,7 @@ public class CustomLinkedListTest {
     }
 
     /**
-     * Testing if sorting works when placed in the end of the list
+     * Testing if sorting works when element placed in the end of the list
      */
     @Test
     public void testSequqnce3() {
@@ -138,7 +138,7 @@ public class CustomLinkedListTest {
     }
 
     /**
-     * testing to getSize if linkedList is empty
+     * testing  getSize method works, if linked list is empty
      */
     @Test
     public void testSize2() {
