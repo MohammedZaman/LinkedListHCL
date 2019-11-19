@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ *This class is created to excecute the Linked List methods 
  */
 package linked.list.hcl;
 
@@ -19,7 +17,7 @@ public class LinkedListHCL {
         linkedList.insertSorted(5);
         linkedList.insertSorted(7);
         linkedList.insertSorted(2);
-        linkedList.displayAll();
+        System.out.print(linkedList.getSequence());
     }
     
 }

@@ -29,6 +29,7 @@ public class CustomLinkedList {
     }
 
     /**
+     * The new node is sorted in ascending order
      *
      * @param data the integer to be stored
      */
@@ -51,15 +52,35 @@ public class CustomLinkedList {
     }
 
     /**
-     * Display all node data values
+     * Counts all the elements in the Linked List
+     *
+     * @return the size of the linked list
      */
-    public void displayAll() {
+    public int getSize() {
         Node currentNode = head;
+        int i = 0;
         while (currentNode != null) {
-            System.out.println(currentNode.data);
+            i++;
+            currentNode = currentNode.next;
+        }
+        return i;
+    }
+
+    /**
+     * Display all node data values
+     * @return 
+     */
+    public String getSequence() {
+        Node currentNode = head;
+        String order = "";
+        while (currentNode != null) {
+            order += currentNode.data;
             currentNode = currentNode.next;
 
         }
+        return(order);
     }
+   
+
 
 }
