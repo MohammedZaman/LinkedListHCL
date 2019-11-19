@@ -1,13 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Unit Testing for Linked List  
  */
 package linked.list.hcl;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -32,7 +27,7 @@ public class CustomLinkedListTest {
     }
 
     /**
-     * Empty constructor with integer parameter
+     * constructor with integer parameter
      */
     @Test
     public void testConstructor2() {
@@ -46,7 +41,7 @@ public class CustomLinkedListTest {
 
     // Testing duplicates 
     /**
-     * Testing for head sort with 2 sets if duplicates
+     * Testing sorting with 2 sets of duplicates
      */
     @Test
     public void testDuplicates1() {
