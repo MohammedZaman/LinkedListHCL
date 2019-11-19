@@ -19,7 +19,7 @@ public class CustomLinkedListTest {
 
     // general Tests 
     /**
-     * Empty constructor test 
+     * Empty constructor test
      */
     @Test
     public void testConstructor1() {
@@ -30,9 +30,9 @@ public class CustomLinkedListTest {
         String sequence = linkedList.getSequence();
         assertEquals(sequence, "1");
     }
-    
-     /**
-     * Empty constructor with integer parameter 
+
+    /**
+     * Empty constructor with integer parameter
      */
     @Test
     public void testConstructor2() {
@@ -43,19 +43,10 @@ public class CustomLinkedListTest {
         String sequence = linkedList.getSequence();
         assertEquals(sequence, "15");
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     // Testing duplicates 
     /**
-     * Testing for head sort with 2 sets if duplicates 
+     * Testing for head sort with 2 sets if duplicates
      */
     @Test
     public void testDuplicates1() {
@@ -70,10 +61,9 @@ public class CustomLinkedListTest {
         String sequence = linkedList.getSequence();
         assertEquals(sequence, "11223");
     }
-    
-    
-     /**
-     * Testing for head sort with 3 duplicates 
+
+    /**
+     * Testing for head sort with 3 duplicates
      */
     @Test
     public void testDuplicates2() {
@@ -88,9 +78,6 @@ public class CustomLinkedListTest {
         String sequence = linkedList.getSequence();
         assertEquals(sequence, "12225");
     }
-    
-    
-    
 
     // Tests for sequence 
     /**
